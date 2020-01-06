@@ -1,6 +1,6 @@
-package com.mayol.color.impl;
+package com.mayol.abstractFactoryPattern.color.impl;
 
-import com.mayol.color.Color;
+import com.mayol.abstractFactoryPattern.color.Color;
 
 public class Blue implements Color {
     @Override

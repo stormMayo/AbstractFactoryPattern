@@ -1,8 +1,8 @@
-package com.mayol.producer;
+package com.mayol.abstractFactoryPattern.producer;
 
-import com.mayol.factory.AbstractFactory;
-import com.mayol.factory.extend.ColorFactory;
-import com.mayol.factory.extend.ShapeFactory;
+import com.mayol.abstractFactoryPattern.factory.AbstractFactory;
+import com.mayol.abstractFactoryPattern.factory.extend.ColorFactory;
+import com.mayol.abstractFactoryPattern.factory.extend.ShapeFactory;
 
 public class FactoryProducer {
     public static AbstractFactory getFactory(String choice){

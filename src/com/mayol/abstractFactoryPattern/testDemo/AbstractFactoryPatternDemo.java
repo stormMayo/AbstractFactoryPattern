@@ -1,9 +1,9 @@
-package com.mayol.testDemo;
+package com.mayol.abstractFactoryPattern.testDemo;
 
-import com.mayol.color.Color;
-import com.mayol.factory.AbstractFactory;
-import com.mayol.producer.FactoryProducer;
-import com.mayol.shape.Shape;
+import com.mayol.abstractFactoryPattern.color.Color;
+import com.mayol.abstractFactoryPattern.factory.AbstractFactory;
+import com.mayol.abstractFactoryPattern.producer.FactoryProducer;
+import com.mayol.abstractFactoryPattern.shape.Shape;
 
 public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {

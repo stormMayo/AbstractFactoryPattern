@@ -1,11 +1,11 @@
-package com.mayol.factory.extend;
+package com.mayol.abstractFactoryPattern.factory.extend;
 
-import com.mayol.color.Color;
-import com.mayol.color.impl.Blue;
-import com.mayol.color.impl.Green;
-import com.mayol.color.impl.Red;
-import com.mayol.factory.AbstractFactory;
-import com.mayol.shape.Shape;
+import com.mayol.abstractFactoryPattern.color.Color;
+import com.mayol.abstractFactoryPattern.color.impl.Blue;
+import com.mayol.abstractFactoryPattern.color.impl.Green;
+import com.mayol.abstractFactoryPattern.color.impl.Red;
+import com.mayol.abstractFactoryPattern.factory.AbstractFactory;
+import com.mayol.abstractFactoryPattern.shape.Shape;
 
 public class ColorFactory extends AbstractFactory {
     @Override

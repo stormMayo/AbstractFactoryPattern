@@ -1,6 +1,6 @@
-package com.mayol.shape.impl;
+package com.mayol.abstractFactoryPattern.shape.impl;
 
-import com.mayol.shape.Shape;
+import com.mayol.abstractFactoryPattern.shape.Shape;
 
 public class Rectangle implements Shape {
 
