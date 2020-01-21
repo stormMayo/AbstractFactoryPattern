@@ -1,7 +1,7 @@
-package com.mayol.proxyPattern.img.impl;
+package com.mayol.proxyPattern.example.img.impl;
 
 
-import com.mayol.proxyPattern.img.Image;
+import com.mayol.proxyPattern.example.img.Image;
 
 public class RealImage implements Image {
     private String fileName;

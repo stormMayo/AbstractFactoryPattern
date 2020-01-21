@@ -1,7 +1,7 @@
-package com.mayol.proxyPattern.test;
+package com.mayol.proxyPattern.example.test;
 
-import com.mayol.proxyPattern.img.Image;
-import com.mayol.proxyPattern.proxy.ProxyImage;
+import com.mayol.proxyPattern.example.img.Image;
+import com.mayol.proxyPattern.example.proxy.ProxyImage;
 
 public class ProxyPatternDemo {
     public static void main(String[] argus){

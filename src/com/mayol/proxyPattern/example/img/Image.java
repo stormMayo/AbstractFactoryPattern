@@ -1,4 +1,4 @@
-package com.mayol.proxyPattern.img;
+package com.mayol.proxyPattern.example.img;
 
 public interface Image {
     void display();

@@ -1,8 +1,8 @@
-package com.mayol.proxyPattern.proxy;
+package com.mayol.proxyPattern.example.proxy;
 
 
-import com.mayol.proxyPattern.img.Image;
-import com.mayol.proxyPattern.img.impl.RealImage;
+import com.mayol.proxyPattern.example.img.Image;
+import com.mayol.proxyPattern.example.img.impl.RealImage;
 
 public class ProxyImage implements Image {
     private String fileName;
