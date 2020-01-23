@@ -7,6 +7,8 @@ public class TestDemo {
         SomeOne realSomeOne = new RealSomeone();
         MyInvocationHandler myInvocationHandler = new MyInvocationHandler(realSomeOne);
 
+        Proxy.newProxyInstance(realSomeOne.getClass().getClassLoader(), realSomeOne.getClass().getInterfaces(), myInvocationHandler);
+
         SomeOne someOne = (SomeOne) Proxy.newProxyInstance(realSomeOne.getClass().getClassLoader(), realSomeOne.getClass().getInterfaces(),
                 myInvocationHandler);
         someOne.eat();
